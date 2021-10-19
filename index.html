@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Humans With Humanity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="img/logo.png" alt="" />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#about">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="img-content" id="header">
+        <h1>STREET DOGS DESERVE TO LIVE</h1>
+        <h2>Together we can change the world</h2>
+        <p>
+          Just because the have no were to go it doesent mean they are
+          worthless.Stop killing them and give better life.
+        </p>
+
+        <a
+          href="https://rzp.io/l/Ulbc02jY"
+          class="hero-btn"
+          target="_blank"
+          >Donate Here</a
+        >
+      </div>
+    </header>
+    <br /><br /><br />
+
+    <section id="about" class="about">
+      <h3 class="info">
+        Humans With Humanity Foundation is a GUJRAT based private ltd. company
+        regesterd on ministory of Coreporatr Affairs . Directors of this
+        Foundation are Bhargsetu Sharma .This foundation have rescued many
+        animals and birds.
+      </h3><br><br>
+      <p class="info">
+          About 1M dogs die every year due to lack of Food and shelter.Together we can change this by donating money.Please donate and give them better life.
+      </p>
+
+      <div class="grid">
+        <div class="first3">
+          <img src="img/with-dog1.jpeg" class="setu" alt="" />
+          <img src="img/with-dog2.jpeg" class="setu" alt="" />
+          <img src="img/with-dog3.jpeg" class="setu" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section1">
+      <div class="container">
+        <form
+          action="https://formspree.io/f/mleakggn"
+          method="post"
+          id="my-form"
+        >
+          <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" />
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="lastName" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="messege">Messege</label>
+            <textarea
+              name="messege"
+              id="messege"
+              cols="25"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Messege</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="end">
+        <img class="endlogo" src="img/logo.png" alt="" />
+
+        <h2 class="end-content">Follow us on</h2>
+        <div class="flex">
+          <a href="https://www.facebook.com/HWHvadodara/" target="_blank"
+            ><img class="social-media" src="img/fbmain.png" alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/humanswithhumanity/?hl=en"
+            target="_blank"
+            ><img class="social-media" src="img/insta.jpg" alt=""
+          /></a>
+          <a
+            href="https://twitter.com/hwh_ind"
+            target="_blank"
+            ><img class="social-media" src="img/twt.jpg" alt=""
+          /></a>
+        </div>
+        <div class="rights">
+          <h2>Humanswithhumanity@support.com | 91-9870640365</h2>
+          <h2>2021 Created by <i class="name"> GAURAV</i></h2>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.left = "0";
+      }
+      function hideMenu() {
+        navLinks.style.left = "-200px";
+      }
+    </script>
+  </body>
+</html>
