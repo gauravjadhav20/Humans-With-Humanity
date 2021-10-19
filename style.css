@@ -69,7 +69,7 @@ nav {
       rgba(243, 226, 226, 0.753),
       rgba(0, 0, 0, 0.39)
     ),
-    url(img/dog1.jpg);
+    url(dog1.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
